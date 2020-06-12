@@ -1,0 +1,146 @@
+//https           ://codepen.io/ge1doot/pen/LkdOwj  fondo movil
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Marck+Script&display=swap');
+$datos            : 'Indie Flower',
+cursive;
+$formulario: 'Caveat',
+cursive;
+$titulo: 'Marck Script',
+cursive;
+
+* {
+    padding           : 0;
+    margin            : 0;
+    box-sizing        : border-box;
+    -moz-box-sizing   : border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing    : border-box;
+    -o-box-sizing     : border-box;
+}
+
+#titulo {
+    background-color: rgba($color: #000000, $alpha: 0.4);
+    margin          : auto;
+    text-align      : center;
+    font-family     : $titulo;
+    font-style      : oblique;
+    font-synthesis  : style;
+    font-variant    : normal;
+    font-weight     : 800;
+    margin-top      : 40px;
+    margin-bottom   : 15px;
+    width           : 50%;
+    font-size       : 35px;
+    color           : whitesmoke;
+}
+
+form {
+    background-color  : rgba(#000000, $alpha: 0.4);
+    margin            : auto;
+    width             : 50%;
+    -webkit-box-shadow: 18px 9px 36px -4px rgba(0, 255, 68, 1);
+    -moz-box-shadow   : 18px 9px 36px -4px rgba(0, 255, 68, 1);
+    -ms-box-shadow    : 18px 9px 36px -4px rgba(0, 255, 68, 1);
+    -o-box-shadow     : 18px 9px 36px -4px rgba(0, 255, 68, 1);
+    box-shadow        : 18px 9px 36px -4px rgba(0, 255, 68, 1);
+
+    #tabla-formulario {
+        width         : 70%;
+        margin        : auto;
+        display       : flex;
+        display       : -moz-flex;
+        display       : -ms-flex;
+        display       : -o-flex;
+        display       : -webkit-flex;
+        flex-direction: column;
+
+        label {
+            color      : whitesmoke;
+            text-align : center;
+            font-size  : 25px;
+            margin     : 10px;
+            font-family: $titulo;
+        }
+
+        .tabla {
+            font-family       : $formulario;
+            width             : 50%;
+            margin            : auto;
+            font-size         : 20px;
+            border            : 3px rgb(0, 191, 255) solid;
+            border-radius     : 15px;
+            padding           : 0.5%;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing   : border-box;
+            box-sizing        : border-box;
+            font-style        : italic;
+
+            &:hover {
+                cursor: pointer;
+                border: 3px blue solid;
+            }
+
+        }
+
+        // para visualizar con js
+        .oculto {
+            margin-top: 15px;
+            display   : none;
+        }
+
+        .otro {
+            margin-top: 20px;
+            ;
+        }
+    }
+    
+
+
+.botones {
+    background-color: rgba($color: #000000, $alpha: 0.4);
+    width           : 100%;
+    text-align      : center;
+    margin          : auto;
+
+    .contenido {
+        width         : 70%;
+        margin        : auto;
+        display       : flex;
+        display       : -moz-flex;
+        display       : -ms-flex;
+        display       : -o-flex;
+        display       : -webkit-flex;
+        flex-direction: column;
+        margin-top    : 30px;
+
+        button {
+            padding      : 3px;
+            width        : 40%;
+            margin       : auto;
+            margin-top   : 15px;
+            font-size    : 20px;
+            font-family  : $formulario;
+            border-radius: 15px;
+            border       : 3px blue solid;
+
+            &:hover {
+                cursor: progress;
+                border: 3px rgb(0, 255, 8) solid;
+            }
+        }
+    }
+}
+}
+#display {
+    width      : 50%;
+    margin     : auto;
+    border     : solid 1px greenyellow;
+    color      : honeydew;
+    font-family: $datos;
+    font-size  : 25px;
+
+    #informacion {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}

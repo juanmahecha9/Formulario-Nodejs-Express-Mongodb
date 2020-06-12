@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Marck+Script&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+#titulo {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: auto;
+  text-align: center;
+  font-family: "Marck Script", cursive;
+  font-style: oblique;
+  font-synthesis: style;
+  font-variant: normal;
+  font-weight: 800;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 50%;
+  font-size: 35px;
+  color: whitesmoke;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: auto;
+  width: 50%;
+  -webkit-box-shadow: 18px 9px 36px -4px #00ff44;
+  -ms-box-shadow: 18px 9px 36px -4px #00ff44;
+  -o-box-shadow: 18px 9px 36px -4px #00ff44;
+  box-shadow: 18px 9px 36px -4px #00ff44;
+}
+
+form #tabla-formulario {
+  width: 70%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+form #tabla-formulario label {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 25px;
+  margin: 10px;
+  font-family: "Marck Script", cursive;
+}
+
+form #tabla-formulario .tabla {
+  font-family: "Caveat", cursive;
+  width: 50%;
+  margin: auto;
+  font-size: 20px;
+  border: 3px deepskyblue solid;
+  border-radius: 15px;
+  padding: 0.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-style: italic;
+}
+
+form #tabla-formulario .tabla:hover {
+  cursor: pointer;
+  border: 3px blue solid;
+}
+
+form #tabla-formulario .oculto {
+  margin-top: 15px;
+  display: none;
+}
+
+form #tabla-formulario .otro {
+  margin-top: 20px;
+}
+
+form .botones {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+form .botones .contenido {
+  width: 70%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+}
+
+form .botones .contenido button {
+  padding: 3px;
+  width: 40%;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: "Caveat", cursive;
+  border-radius: 15px;
+  border: 3px blue solid;
+}
+
+form .botones .contenido button:hover {
+  cursor: progress;
+  border: 3px #00ff08 solid;
+}
+
+#display {
+  width: 50%;
+  margin: auto;
+  border: solid 1px greenyellow;
+  color: honeydew;
+  font-family: "Indie Flower", cursive;
+  font-size: 25px;
+}
+
+#display #informacion {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
